@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="diseño.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    
+    <body>
+        <header>
+             <img src="Logo.png" class="logoimg" alt="logo">
+
+        </header>
+         <main>
+         <div class="container">
+            <div class="logo"> 
+                <h1 class="title">Encriptador de mensajes Alura</h1>
+            </div> 
+            
+            <div class="left">
+                <input class="text-input" id="inputTexto" type="text" placeholder="Ingrese el texto aqui" >
+            </div>
+            
+            <div class="right"> 
+                 <img src="Mueco.png" id="imgDer">
+                 <h1 id="texto">Ningun mensaje fue encontrado</h1>
+                 <textarea id="texto2" name="name" rows="8" cols="80">Ingrese el texto que desee encriptar o desencriptar.</textarea>
+                 <button class="btn1" id="copiar" type="button" name="button" onclick="copiar()">¡Copiar!</button>
+             </div>
+
+            
+             
+
+             <div class="left-button">
+                
+                <p class="advertencia"> &#9888 Solo minusculas y sin acento </p>
+                 <button class="btn" type="button" id="btn-encriptar" onclick="encriptar()"> Encriptar </button>
+                 <button class="btn" type="button" id="btn-desencriptar" onclick="desencriptar()"> Desencriptar </button>
+             </div>
+          
+         </div>
+         </main>
+
+         <footer>
+            <p class="piedepagina">&copy Copyright Oliver Nicolas Castro(G3)-2022.</p>
+
+         </footer>
+
+         <script type="text/javascript" src="logica.js"></script>
+         
+
+    
+     </body>
+        
+    
+
+
+
+</html>
